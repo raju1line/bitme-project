@@ -1,0 +1,18 @@
+.income-cart::after {
+    content: "";
+    width: 102%;
+    height: 102%;
+    background: linear-gradient(92.9deg, rgba(29, 133, 255, 0) 0.35%, #1DAEFF 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+.income-cart {
+    background: linear-gradient(180deg, #193352 0%, #0c233e 100%);
+    position: relative;
+
+}

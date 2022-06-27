@@ -1,0 +1,22 @@
+/* .nav-area {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logo-area {
+  align-self: flex-start;
+  
+} */
+.color{
+background: #0c233e;
+background: -moz-linear-gradient(left,  #0c233e 0%, #0f3e6a 60%, #0d325a 100%);
+background: -webkit-linear-gradient(left,  #0c233e 0%,#0f3e6a 60%,#0d325a 100%);
+background: linear-gradient(to right,  #0c233e 0%,#0f3e6a 60%,#0d325a 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c233e', endColorstr='#0d325a',GradientType=1 );
+
+}

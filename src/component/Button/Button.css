@@ -1,0 +1,10 @@
+.link {
+  border: 1px solid #1d85ff;
+  background: transparent;
+  padding: 15px 40px 15px 40px;
+  border-radius: 2rem;
+  transition: all .03s;
+}
+.link:hover {
+  background: #FFB411;
+}

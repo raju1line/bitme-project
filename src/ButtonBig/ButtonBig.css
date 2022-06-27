@@ -1,0 +1,16 @@
+.big-link {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 120%;
+  padding: 15px 40px 15px 40px;
+  display: inline-block;
+  background: linear-gradient(229.55deg, #1d85ff 11.8%, #1daeff 92.59%);
+  border-radius: 60px;
+  text-transform: capitalize;
+  transition: .03s;
+  /* -webkit-transition: all 0.3s ease; */
+}
+.big-link:hover{
+  background:#FFB411;
+}

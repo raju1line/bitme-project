@@ -1,0 +1,17 @@
+.hero-back-ground {
+  background: #0c233e;
+  background: -moz-linear-gradient(left, #0c233e 0%, #0f3e6a 60%, #0d325a 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0c233e 0%,
+    #0f3e6a 60%,
+    #0d325a 100%
+  );
+  /* background: linear-gradient(to right, #0c233e 0%, #0f3e6a 60%, #0d325a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c233e', endColorstr='#0d325a',GradientType=1 ); */
+}
+.bg-color{
+background: linear-gradient(180deg, #193352 0%, rgba(25, 51, 82, 0) 100%);
+
+}
+grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
