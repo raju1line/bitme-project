@@ -5,10 +5,11 @@ import Button from "../Button/Button";
 import ButtonBig from "../../ButtonBig/ButtonBig";
 import { Cart } from "../../utility/CartItem";
 import service from "../../component/Img/bitme-service-section-bg.png";
+import CartData from "../CartData/CartData";
 
 const HeroAreea = () => {
   return (
-    <div className="hero-back-ground relative ">
+    <div className="hero-back-ground relative w-full h-[91rem] ">
       <div className="grid grid-cols-1 md:grid-cols-2 px-[5rem]">
         <div className="mt-[4rem] mb-[8rem] table">
           <div className=" table-cell align-middle">
@@ -67,28 +68,18 @@ const HeroAreea = () => {
           </div>
         </div>
         <div className="px-[6rem]">
-          <div className="relative  grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2  justify-around mt-14 z-10 gap-6">
-            {Cart.map((item, index) => {
-              return (
-                <div className="bg-color p-8 rounded-[1rem]" key={index}>
-                  <h1 className=" text-[1.8rem] mb-[.8rem] text-[#ECF1F5] ">
-                    {item.name}
-                  </h1>
-                  <h4 className=" text-[1rem] text-[#A9BBCC] mb-8">
-                    {item.data}
-                  </h4>
-                  <img src={item.imgs} alt="" />
-                </div>
-              );
-            })}
+          <div className="relative  grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2  justify-around mt-20 z-10 gap-6 w-full">
+            {Cart.map((data) => (
+              <CartData data={data} />
+            ))}
           </div>
         </div>
-        <div className="  w-[100%] mt-[-47rem] -z-10 h-[50rem] object-cover">
-          <img className=" w-[100%] h-[60rem]" src={service} alt="" />
-        </div>
-        <div className="flex justify-center items-center gap-4 mt-4 text-white mb-5">
+        <div className="flex justify-center items-center gap-4 mt-10 text-white z-10 relative">
           <ButtonBig learn={"learn more"} />
           <Button now={"trade now"} />
+        </div>
+        <div className="  w-[100%] mt-[-51rem] -z-10 h-[60rem] object-cover">
+          <img className=" w-[100%] h-[59rem]" src={service} alt="" />
         </div>
       </div>
     </div>

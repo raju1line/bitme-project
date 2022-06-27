@@ -30,7 +30,9 @@ const FooterTop = () => {
               <div>
                 <ButtonBig Buy={"Buy Bitme"} />
               </div>
-              <Button Lear={"Learn"} />
+              <div className=" text-white">
+                <Button Lear={"Learn"} />
+              </div>
             </div>
           </div>
         </div>
